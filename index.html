@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nithish Kumar — Portfolio Website </title>
+  <meta name="description" content="designer, Video." />
+  <style>
+    :root{
+      --bg:#ffffff;
+      --card:#ffffff;
+      --accent:#000000;
+      --muted:#090606;
+      --glass: rgba(166, 1, 1, 0.03);
+      --radius:16px;
+      color-scheme: dark;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+      background: linear-gradient(180deg,var(--bg), #ffffff 70%);
+      color: #030609;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:40px 20px;
+      display:flex;
+      justify-content:center;
+    }
+    .container{max-width:1000px;width:100%;}
+    header{display:flex;align-items:center;gap:18px;margin-bottom:28px}
+    .avatar{
+      width:84px;height:84px;border-radius:18px;background:linear-gradient(135deg,var(--accent),#f8f9f9);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:28px;color:#06202a;box-shadow:0 6px 18px rgba(0,0,0,0.6)
+    }
+    h1{margin:0;font-size:22px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:20px}
+    @media (max-width:900px){.grid{grid-template-columns:1fr}}
+
+    .card{background:linear-gradient(180deg,var(--card), rgba(255, 255, 255, 0.02));border-radius:var(--radius);padding:20px;box-shadow:0 6px 28px rgba(2,6,23,0.6)}
+
+    /* Main column */
+    .hero{display:flex;flex-direction:column;gap:12px}
+    .intro{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+    .btn{display:inline-block;padding:10px 14px;border-radius:12px;background:var(--accent);color:#ffffff;text-decoration:none;font-weight:600}
+    .projects{margin-top:12px;display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    @media (max-width:700px){.projects{grid-template-columns:1fr}}
+    .project{padding:12px;border-radius:12px;background:var(--glass);border:1px solid rgba(255, 255, 255, 0.03)}
+    .project h3{margin:0 0 6px;font-size:15px}
+    .project p{margin:0;color:var(--muted);font-size:13px}
+
+    /* Sidebar */
+    .sidebar .section{margin-bottom:12px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:rgba(255, 253, 253, 0.04);padding:8px 10px;border-radius:10px;font-size:13px}
+    .contact-form{display:flex;flex-direction:column;gap:8px}
+    input,textarea{background:transparent;border:1px solid rgba(0, 0, 0, 0.04);padding:10px;border-radius:10px;color:inherit;outline:none}
+    input::placeholder,textarea::placeholder{color:var(--muted)}
+    footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+    .meta{color:var(--muted);font-size:13px}
+    a.social{display:inline-flex;gap:8px;align-items:center;text-decoration:none;color:var(--muted)}
+    .social svg{width:18px;height:18px;opacity:0.95}
+   .avatar {
+  width: 120px;    /* change size here */
+  height: 120px;
+  border-radius: 18px;  /* change to 50% for round */
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="">
+        <img src="Nithisssh.jpg" alt="Profile">
+      </div>
+      <div>
+        <h1>Nithish Kumar P</h1>
+        <p class="lead">•Basic Programer • Editor</p>
+      </div>
+      <div style="margin-left:auto;display:flex;gap:10px;align-items:center">
+        <a class="meta" href="https://www.linkedin.com/in/nithish-kumar-8243b0372">Contact</a>
+      </div>
+    </header>
+    <div class="grid">
+      <main>
+        <section class="card hero">
+          <div class="intro">
+            <div style="flex:1">
+              <h2 style="margin:0 0 6px">Hi — I'm Nithish Kumar P</h2>
+              <p class="meta">I enjoy building creative projects, exploring new technologies, and improving my skills in programming and web development. My focus is on writing clean, simple, and efficient code while creating meaningful digital experiences.
+                
+                This Is Nithish Personal Portfolio For His Website Project .</p>
+            </div>
+            <div style="display:flex;gap:8px;align-items:center">
+              <a class="btn" href="#contact">Hire me</a>
+              <a class="btn" href="#" style="background:transparent;border:1px solid rgba(0, 0, 0, 0.06);color:var(--muted)">Download CV</a>
+            </div>
+          </div>        
+
+          <div style="margin-top:16px">
+            <h3 style="margin:0 0 8px">School 
+            </h3>
+            <p class="meta" style="margin:0">
+                School Education
+
+             Counian Matric Higher Secondary School
+             Classes:  Pre-KG to 10th Standard
+
+             Academic Years: 2009 – 2022
+
+             Successfully completed foundational and secondary education with strong academic performance.
+
+             Course: Vocational Group – EMA (Electrical Machines & Appliances) At Counian 
+
+             Class: 11th & 12th Standard
+
+             Academic Years: 2022 – 2024
+
+            Gained practical knowledge in electrical machines, appliances, and basic engineering concepts.
+            <h3 style="margin:0 0 8px">College
+
+            </h3>
+            <p class="meta" style="margin:0">
+                Loyola-ICAM College of Engineering and Technology (LICET),Chennai
+
+             Department: Computer Science Engineering (BE-CSE) 
+
+             Academic Years: 2024 – 2028
+
+             Developing strong skills in programming, software development, algorithms, and modern technologies.
+            </p>
+        </p>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:14px">
+          <h3 style="margin:0 0 8px">About</h3>
+          <p class="meta" style="margin:0"> I’m Nithish Kumar, a Computer Science Engineering student at LICET, Chennai (2024–2028). I completed my schooling at Counian Matric Higher Secondary School, studying from Pre-KG to 10th (2009–2022) and later choosing the EMA vocational group for 11th and 12th (2022–2024).
+
+I’m passionate about technology, programming, and building practical projects. I always enjoy learning new skills and growing as a future software engineer.</p>
+        </section>
+
+      </main>
+
+      <aside class="sidebar">
+        <div class="card section">
+          <h4 style="margin:0 0 8px">Skills</h4>
+          <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Python</div>
+            <div class="skill">SQL</div>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h4 style="margin:0 0 8px">Contact</h4>
+          <p class="meta">Email: <a class="meta" href="mailto:your.email@example.com">nithishkumar21@gmail.com</a></p>
+          <p class="meta">Location: Chennai, Tamil Nadu</p>
+          <div style="margin-top:8px;display:flex;gap:10px;align-items:center">
+            <a class="social" href="#" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 .5C5.78.5.99 5.29.99 11.51c0 4.6 2.99 8.49 7.14 9.87.52.1.71-.22.71-.49 0-.24-.01-.87-.01-1.7-2.9.63-3.51-1.4-3.51-1.4-.48-1.23-1.17-1.56-1.17-1.56-.96-.66.07-.65.07-.65 1.06.08 1.62 1.09 1.62 1.09.94 1.61 2.47 1.15 3.07.88.09-.69.37-1.15.67-1.41-2.32-.26-4.76-1.16-4.76-5.17 0-1.14.39-2.07 1.03-2.8-.1-.26-.45-1.3.1-2.7 0 0 .84-.27 2.75 1.05A9.56 9.56 0 0112 6.8c.85.004 1.71.115 2.51.338 1.9-1.32 2.74-1.05 2.74-1.05.56 1.4.21 2.44.1 2.7.64.73 1.03 1.66 1.03 2.8 0 4.02-2.45 4.9-4.78 5.16.38.33.72.97.72 1.96 0 1.41-.01 2.55-.01 2.9 0 .27.19.6.72.49C20.02 20 23 16.11 23 11.51 23 5.29 18.21.5 12 .5z" fill="currentColor"/></svg>
+              <span style="font-size:13px">GitHub</span>
+            </a>
+            <a class="social" href="https://www.linkedin.com/in/nithish-kumar-8243b0372" aria-label="LinkedIn" target="_blank">
+    <svg viewBox="0 0 24 24" fill="none">
+        <path d="M4.98 3.5a2.5 2.5 0 11-.002 5.002A2.5 2.5 0 014.98 3.5zM3.5 9.75h3v10.5h-3v-10.5zM10.5 9.75h2.88v1.44h.04c.4-.76 1.38-1.56 2.83-1.56 3.03 0 3.59 1.99 3.59 4.58v6.04h-3V15.6c0-1.06-.02-2.42-1.48-2.42-1.49 0-1.72 1.16-1.72 2.34v5.68h-3V9.75z" fill="currentColor"/>
+    </svg>
+    <span style="font-size:13px">LinkedIn</span>
+</a>
+            </a>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h4 style="margin:0 0 8px">Contact Me</h4>
+          <form id="contactForm" class="contact-form" onsubmit="return sendMail(event)">
+            <input id="name" type="text" placeholder="Your name" required />
+            <input id="email" type="email" placeholder="Your email" required />
+            <textarea id="message" rows="4" placeholder="Message" required></textarea>
+            <button class="btn" type="submit">Send</button>
+          </form>
+          <p id="formStatus" class="meta" style="margin-top:6px"></p>
+        </div>
+
+      </aside>
+    </div>
+
+    <footer>
+      <p>Made with  — Nithish kumar.P — <span class="meta">© <span id="year"></span></span></p>
+    </footer>
+  </div>
+
+  <script>
+   
+    document.getElementById('year').textContent = new Date().getFullYear();
+    function sendMail(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const subject = encodeURIComponent('Portfolio contact from ' + name);
+      const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message);
+      const mailto = 'mailto:your.email@example.com?subject='+subject+'&body='+body;
+      // open user's email client
+      window.location.href = mailto;
+      const status = document.getElementById('formStatus');
+      status.textContent = 'Opening your email client...';
+      setTimeout(()=> status.textContent = '', 3000);
+      return false;
+    }
+    (function setAvatarInitials(){
+      const avatar = document.querySelector('.avatar');
+      const name = 'Your Name'; 
+      const parts = name.split(' ');
+      const initials = (parts[0]||'').charAt(0) + ((parts[1]||'').charAt(0)||'');
+      avatar.textContent = initials.toUpperCase();
+    })();
+  </script>
+</body>
+</html>
